@@ -111,7 +111,7 @@ A simple, end‑to‑end Extract‑Transform‑Load (ETL) pipeline that ingests 
 
 ## 🔍 Database Schema
 
-![Movies Table Preview](assets/ERD Screenshot.png)
+![ERD Screenshot](assets/erd_screenshot.png)
 
 ### **movies**
 
