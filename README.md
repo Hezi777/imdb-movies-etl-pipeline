@@ -57,10 +57,9 @@ A simple, end‑to‑end Extract‑Transform‑Load (ETL) pipeline that ingests 
 
    ### 📥 Extract
 
-   - Load **IMDb TSV** files into Pandas.
-   - Example sources:
-     - `title.basics.tsv.gz` (movie metadata)
-     - `title.ratings.tsv.gz` (user ratings)
+   - Load IMDb TSV files from: [IMDb Datasets](https://www.imdb.com/interfaces/)
+      - `title.basics.tsv.gz` (movie metadata)
+      - `title.ratings.tsv.gz` (user ratings)
 
 2.
 
@@ -111,6 +110,8 @@ A simple, end‑to‑end Extract‑Transform‑Load (ETL) pipeline that ingests 
 ---
 
 ## 🔍 Database Schema
+
+![Movies Table Preview](assets/ERD Screenshot.png)
 
 ### **movies**
 
