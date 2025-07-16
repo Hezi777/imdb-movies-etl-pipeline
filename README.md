@@ -122,7 +122,7 @@ A simple, end‑to‑end Extract‑Transform‑Load (ETL) pipeline that ingests 
 | `year`            | INTEGER | Release year                   |
 | `runtime_minutes` | INTEGER | Duration (minutes)             |
 | `average_rating`  | FLOAT   | IMDb user rating (0–10)        |
-| `num_votes`       | BIGINT  | Number of votes (may be large) |
+| `num_votes`       | INT     | Number of votes                |
 
 ### **movie\_genres**
 
